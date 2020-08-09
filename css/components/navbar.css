@@ -1,0 +1,45 @@
+.navbar{
+  padding: 10px 0;
+}
+
+.navbar-pink{
+  background-color: rgb(239,73,117);
+}
+.navbar-light .navbar-brand{
+  padding: 15px;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #ffffff;
+  letter-spacing: 3px;
+  font-family: 'Comfortaa', cursive;
+  text-decoration: none;
+}
+
+.navbar-light .navbar-brand:hover{
+  color: #ffffff;
+}
+
+.nav-item{
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: 'Comfortaa', cursive;
+  padding: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: #ffffff;
+  letter-spacing: 3px;
+  padding-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  background-color: rgb(239,73,117);
+  color: #ffffff;
+  transition: ease-in, 0.3s;
+}
+
+.navbar-light .navbar-toggler{
+  border: none;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}

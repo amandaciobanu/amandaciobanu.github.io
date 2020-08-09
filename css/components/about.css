@@ -1,0 +1,14 @@
+.img-profile img{
+  width: 80%;
+  border-radius: 10%;
+}
+
+.text-about-me{
+  margin-top: 15px;
+  width: 90%;
+}
+.text-about-me p{
+  line-height: 22px;
+  font-size: 16px;
+  text-align: justify;
+}

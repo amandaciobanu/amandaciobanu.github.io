@@ -1,8 +1,247 @@
-<html>
-    <head>
-	<title>Hello!</title>
-    </head>
-    <body>
-	<h1>Placeholder</h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Amanda Ciobanu | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/59d46e0be8.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/ac (1).jpg"/>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+
+    <!--Navbar-->
+    <header>
+      <div class="container">
+        <nav id="navbar-core" class="navbar navbar-expand-lg navbar-light fixed-top">
+          <a class="navbar-brand" href="#">A | C</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-bar-core"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav-bar-core">
+            <ul class="navbar-nav ml-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--Banner-->
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h2>Amanda Ciobanu</h2>
+            <h4>Junior Full-Stack Developer</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Portfolio-->
+    <div class="container">
+      <div id="portfolio">
+        <h2>PORTFOLIO</h2>
+      </div>
+      <div class="card hover">
+        <div class="card-img" style="background-image:url(./images/balancer-card.png);">
+          <div class="overlay">
+            <div class="overlay-content">
+              <a class="hover" href="http://www.balancer.online/" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-content">
+          <a href="http://www.balancer.online/" target="_blank">
+            <h2>Balancer</h2>
+            <p>Team Project | Le Wagon</p>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-img" style="background-image:url(./images/birou-long.png);">
+          <div class="overlay">
+            <div class="overlay-content">
+              <a href="http://birou.herokuapp.com/" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-content">
+          <a href="http://birou.herokuapp.com/" target="_blank">
+            <h2>Birou</h2>
+            <p>Team Project | Le Wagon</p>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-img" style="background-image:url(./images/mistercocktail.jpg);">
+          <div class="overlay">
+            <div class="overlay-content">
+              <a href="https://amanda-ciobanu-cocktail.herokuapp.com/" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-content">
+          <a href="https://amanda-ciobanu-cocktail.herokuapp.com/" target="_blank">
+            <h2>Mister Cocktail</h2>
+            <p>Solo Project | Le Wagon</p>
+          </a>
+        </div>
+      </div>
+      <!--Cards/End-->
+    </div>
+    <!--Cards-->
+    <!--About Me-->
+    <div class="container">
+      <div id="about-me">
+        <h2>ABOUT ME</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div data-aos="zoom-in" data-aos-duration="1200">
+            <div class="img-profile">
+              <img class="img-fluid" src="./images/amanda.jpg" alt="Amanda Ciobanu">  
+            </div>
+          </div>  
+        </div> 
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="text-about-me">
+              <p>At the begging of 2020, I decided to pursue a new and exciting career in software development. 
+              To fulfill this objective, I attended Le Wagon Bootcamp (full-time) in Lisbon which I have graduated in July 2020 (batch #419).</p>
+              <p>During the 9 weeks of the Bootcamp, I have found myself passionate about the entire process of creating a web application, 
+              including prototyping, deploying, and the inevitable bug-fixing.</p>
+              <p>The learning process never stops - I am continuously working on deepening the skills 
+              I acquired during the Bootcamp and acquiring new ones that were not part of the curriculum.</p>
+              <p>Looking forward to my next challenge where I can become a great developer, work on meaningful products,
+              and be an active member of the tech community.</p>
+          </div> 
+        </div> 
+      </div>
+    </div>
+    <!--Skills-->
+    <div class="container">
+      <div id="skills">
+        <h2>SKILLS</h2>
+      </div> 
+    </div>
+    <ul class="skills-bar-container">
+
+      <li>
+        <div class="progressbar-title">
+          <h6> <i class="fa fa-html5" aria-hidden="true"></i> HTML5</h6>
+          <span class="percent" id="html-pourcent"></span>
+        </div>
+        <div class="bar-container">
+          <span class="progressbar progressred" id="progress-html"></span>
+        </div>
+      </li>
+      <li>
+        <div class="progressbar-title">
+          <h6> <i class="fa fa-css3" aria-hidden="true"></i> CSS / SASS</h6>
+          <span class="percent" id="css-pourcent"></span>
+        </div>
+        <div class="bar-container">
+          <span class="progressbar progressblue" id="progress-css"></span>
+        </div>
+      </li>
+    
+      <li>
+        <div class="progressbar-title">
+          <h6> <i class="fa fa-diamond" aria-hidden="true"></i> Ruby</h6>
+          <span class="percent" id="javascript-pourcent"></span>
+        </div>
+        <div class="bar-container">
+          <span class="progressbar progresspurple" id="progress-javascript"></span>
+        </div>
+      </li>
+    
+      <li>
+        <div class="progressbar-title">
+          <h6> <i class="fab fa-js-square"></i> JavaScript</h6>
+          <span class="percent" id="php-pourcent"></span>
+        </div>
+        <div class="bar-container">
+          <span class="progressbar progressorange" id="progress-php"></span>
+        </div>
+      </li>
+    
+      <li>
+        <div class="progressbar-title">
+          <h6> <i class="fas fa-train"></i> Ruby on Rails</h6>
+          <span class="percent" id="angular-pourcent"></span>
+        </div>
+        <div class="bar-container">
+          <span class="progressbar progressgreen" id="progress-angular"></span>
+        </div>
+      </li>
+      <li>
+        <div class="progressbar-title">
+          <h6> <i class="fab fa-bootstrap"></i> Bootstrap</h6>
+          <span class="percent" id="boostrap-pourcent"></span>
+        </div>
+        <div class="bar-container">
+          <span class="progressbar progressruge" id="progress-boostrap"></span>
+        </div>
+      </li>
+      <li>
+        <div class="progressbar-title">
+          <h6> <i class="fab fa-github"></i> GitHub</h6>
+          <span class="percent" id="github-pourcent"></span>
+        </div>
+        <div class="bar-container">
+          <span class="progressbar progresspink" id="progress-github"></span>
+        </div>
+      </li>
+    </ul>
+    <div class="footer">
+      <div class="footer-links">
+        <a href="https://github.com/amandaciobanu"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/amandatjciobanu/"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="footer-copyright">
+        © 2020 | Amanda Ciobanu
+      </div>
+    </div>
+    
+    <script src="./index.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+
 </html>
