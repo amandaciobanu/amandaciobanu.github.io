@@ -12,3 +12,16 @@
   font-size: 16px;
   text-align: justify;
 }
+
+@media(max-width: 768px)
+{
+  .img-profile img{
+  width: 60%;
+  border-radius: 10%;
+  }
+  .text-about-me{
+  margin-top: 25px;
+  width: 80%;
+  }
+  
+}

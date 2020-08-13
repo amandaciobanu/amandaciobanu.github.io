@@ -14,7 +14,6 @@
 }
 .footer-links a {
   color: #F4F4F4;
-  
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
@@ -22,4 +21,21 @@
 }
 .footer-links a:hover {
   opacity: 0.5;
+}
+
+.footer-copyright p{
+  font-size: 16px;
+  padding: 25px 10px 15px 10px;
+}
+
+
+@media(max-width: 411px)
+{
+  .footer-copyright p{
+    font-size: 12px;
+  }
+  
+  .footer-links a {
+    font-size: 18px;
+  }
 }
