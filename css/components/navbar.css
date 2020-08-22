@@ -3,7 +3,7 @@
 }
 
 .navbar-pink{
-  background-color: rgb(239,73,117);
+  background-color: rgba(239,73,117,0.9);
 }
 .navbar-light .navbar-brand{
   padding: 15px;
@@ -18,7 +18,9 @@
 .navbar-light .navbar-brand:hover{
   color: #ffffff;
 }
-
+.navbar-light .navbar-brand:focus {
+  color: #ffffff !important;
+}
 .nav-item{
   font-weight: 800;
   text-transform: uppercase;
@@ -29,7 +31,6 @@
 .navbar-light .navbar-nav .nav-link{
   color: #ffffff;
   letter-spacing: 3px;
-  padding-left: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
@@ -42,4 +43,8 @@
   border: none;
   color: #ffffff;
   border: 2px solid #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff !important;
 }

@@ -98,20 +98,3 @@ body{
 .fa-street-view{
   color: rgb(239,73,117);
 }
-span#typed {
-  margin: 1em 0 0;
-  padding: 0;
-  font-size: 1.5em;
-  letter-spacing: 4px;
-  font-family: 'Comfortaa', cursive;
-  font-weight: 300;
-  color: #ffffff;
-}
-
-@media(max-width: 768px)
-{
-  span#typed {
-    font-size: 1.2em;
-    font-weight: 600;
-  }
-}
