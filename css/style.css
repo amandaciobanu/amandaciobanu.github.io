@@ -6,6 +6,7 @@
 @import url("components/about.css");
 @import url("components/skills.css");
 @import url("components/footer.css");
+@import url("components/contact.css");
 
 header {
   position: absolute;

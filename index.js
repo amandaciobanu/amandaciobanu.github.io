@@ -22,36 +22,14 @@ const registerSmoothClick = (target) => {
 
 $(document).ready(function () {
 
+  //Type Banner
   var typed = new Typed('#typed', {
     stringsElement: '#typed-strings',
     typeSpeed: 50,
     cursorChar: '\u2591'
   });
 
-  var lang = {
-    "html": "80%",
-    "css": "75%",
-    "javascript": "60%",
-    "php": "55%",
-    "angular": "50%",
-    "boostrap": "55%",
-    "github": "65%",
-  };
-  
-  var multiply = 4;
-  
-  $.each( lang, function( language, pourcent) {
-  
-    var delay = 700;
-    
-    setTimeout(function() {
-      $('#'+language+'-pourcent').html(pourcent);
-    },delay*multiply);
-    
-    multiply++;
-  
-  });
-
+  //Cards Portfolio
 	$(".card")
 		.delay(1800)
 		.queue(function (next) {
@@ -59,7 +37,9 @@ $(document).ready(function () {
 			$("a.hover").removeClass("hover");
 			next();
     });
-    
+
+
+    //Navbar Scroll
     const navbar = document.querySelector('#navbar-core');
     window.addEventListener('scroll', () => updateNavbarState(navbar));
     updateNavbarState(navbar);
@@ -68,7 +48,17 @@ $(document).ready(function () {
     registerSmoothClick('portfolio');
     registerSmoothClick('about');
     registerSmoothClick('skills');
+    registerSmoothClick('contact');
 
     AOS.init();
+
+    //Skills animation
+
+    $('.skill-icons').children('.active').each(function(i) {
+      var row = $(this);
+      setTimeout(function() {
+        row.css('background','#ef4975');
+      }, 100*i);
+    });
 
 });
