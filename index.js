@@ -7,7 +7,26 @@ const updateNavbarState = (navbar) => {
   }
 }
 
+const registerSmoothClick = (target) => {
+  const link = $(`#link-${target}-target`);
+  const destination = document.querySelector(`#${target}-target`);
+  const navbarRef = $('.navbar-collapse');
+
+  link.click(() => {
+    destination.scrollIntoView({ behavior: 'smooth' })
+    navbarRef.collapse('hide');
+
+    return false;
+  });
+}
+
 $(document).ready(function () {
+
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 50,
+    cursorChar: '\u2591'
+  });
 
   var lang = {
     "html": "80%",
@@ -44,4 +63,12 @@ $(document).ready(function () {
     const navbar = document.querySelector('#navbar-core');
     window.addEventListener('scroll', () => updateNavbarState(navbar));
     updateNavbarState(navbar);
+
+    // Register Navbar Events
+    registerSmoothClick('portfolio');
+    registerSmoothClick('about');
+    registerSmoothClick('skills');
+
+    AOS.init();
+
 });

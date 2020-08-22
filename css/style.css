@@ -45,7 +45,7 @@ body{
   font-family: 'Comfortaa', cursive;
 }
 
-#portfolio h2{
+#portfolio-target h2{
   text-align: center;
   margin-top: 40px;
   letter-spacing: 8px;
@@ -53,7 +53,7 @@ body{
   margin-bottom: 20px;
 }
 
-#about-me h2{
+#about-target h2{
   text-align: center;
   margin-top: 40px;
   letter-spacing: 8px;
@@ -61,7 +61,7 @@ body{
   margin-bottom: 50px;
 }
 
-#skills h2{
+#skills-target h2{
   text-align: center;
   margin-top: 40px;
   letter-spacing: 8px;
@@ -72,10 +72,10 @@ body{
 
 @media(max-width: 768px)
 {
-  #portfolio h2{
+  #portfolio-target h2{
     font-size: 28px;
   }
-  #about-me h2{
+  #about-target h2{
     font-size: 28px;
   }
 }
@@ -97,4 +97,21 @@ body{
 
 .fa-street-view{
   color: rgb(239,73,117);
+}
+span#typed {
+  margin: 1em 0 0;
+  padding: 0;
+  font-size: 1.5em;
+  letter-spacing: 4px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+@media(max-width: 768px)
+{
+  span#typed {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
 }
