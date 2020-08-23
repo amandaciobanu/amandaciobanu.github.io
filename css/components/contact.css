@@ -63,3 +63,21 @@
   display: flex;
   justify-content: center;
 }
+
+@media(max-width: 411px)
+{
+  .contact i {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  .contact p {
+    letter-spacing: 0px;
+    font-size: 12px;
+  }
+
+  .contact a {
+    letter-spacing: 0px;
+    font-size: 12px;
+  }
+
+}
