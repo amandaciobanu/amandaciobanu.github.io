@@ -20,7 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575f91a5-159b-4892-86d1-b68bed2014d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/balancer-c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/full-blog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/simplelife-card.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/snake-js-dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/snake-js-game.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/snake-js.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tic-tac-toe.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/balancer-card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/buget-calculator.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/budget-calculator.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/files" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,7 +60,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
@@ -66,6 +81,13 @@
       <workItem from="1602164267745" duration="1642000" />
       <workItem from="1602166745594" duration="99000" />
       <workItem from="1602229080544" duration="2004000" />
+      <workItem from="1602608205494" duration="739000" />
+      <workItem from="1602670001857" duration="85000" />
+      <workItem from="1604341339140" duration="1530000" />
+      <workItem from="1604343888607" duration="1026000" />
+      <workItem from="1604397385820" duration="302000" />
+      <workItem from="1604498741038" duration="1624000" />
+      <workItem from="1604501514933" duration="4126000" />
     </task>
     <servers />
   </component>
@@ -83,5 +105,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1071" y="418" width="1048" height="1018" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602608249413">
+      <screen x="0" y="56" width="3200" height="1744" />
+    </state>
+    <state x="1071" y="418" width="1048" height="1018" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.56.3200.1744@0.56.3200.1744" timestamp="1602608249413" />
   </component>
 </project>

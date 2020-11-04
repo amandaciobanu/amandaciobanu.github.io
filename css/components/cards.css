@@ -1,8 +1,7 @@
-
 .card {
-  width: 300px;
+  width: 100%;
   display: inline-block;
-  margin: 1.8rem;
+  margin: 1.8rem 0 1.8rem 0;
   border-radius: 4px;
   box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: all .2s ease;
@@ -13,7 +12,7 @@
 }
 .card:hover, .card.hover {
   -webkit-transform: translateY(-4px);
-          transform: translateY(-4px);
+  transform: translateY(-4px);
   box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
 }
 .card:hover .card-content, .card.hover .card-content {
@@ -33,7 +32,7 @@
   background-color: #fff;
   -webkit-transition: opacity .2s ease;
   transition: opacity .2s ease;
-  background-position: center center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
