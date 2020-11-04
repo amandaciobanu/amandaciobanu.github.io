@@ -79,6 +79,14 @@ body{
   #about-target h2{
     font-size: 28px;
   }
+
+  #skills-target h2{
+    font-size: 28px;
+  }
+
+  #contact-target h2{
+    font-size: 28px;
+  }
 }
 
 .location{
