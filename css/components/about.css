@@ -1,6 +1,5 @@
 .img-profile img{
-  width: 70%;
-  border-radius: 10%;
+  border-radius: 5px;
 }
 
 .text-about-me{
@@ -13,15 +12,11 @@
   text-align: justify;
 }
 
-@media(max-width: 768px)
-{
+@media(max-width: 768px) {
+
   .img-profile img{
-  width: 70%;
-  border-radius: 10%;
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
   }
-  .text-about-me{
-  margin-top: 25px;
-  width: 80%;
-  }
-  
 }
