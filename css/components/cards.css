@@ -85,6 +85,7 @@
   font-family: 'Comfortaa', cursive;
   font-size: 1.3rem;
   font-weight: 500;
+  letter-spacing: 3px !important;
 }
 .card-content p, .card-content a p {
   font-family: 'Comfortaa', cursive;
