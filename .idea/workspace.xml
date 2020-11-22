@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575f91a5-159b-4892-86d1-b68bed2014d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/Amanda Logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/Amanda Ciobanu.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mistercocktail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,12 +53,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/files" />
-      <recent name="$PROJECT_DIR$/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/files" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,6 +82,9 @@
       <workItem from="1604498741038" duration="1624000" />
       <workItem from="1604501514933" duration="9712000" />
       <workItem from="1604524070847" duration="2520000" />
+      <workItem from="1604561649765" duration="656000" />
+      <workItem from="1604569649877" duration="11000" />
+      <workItem from="1606041910100" duration="701000" />
     </task>
     <servers />
   </component>
@@ -106,5 +112,9 @@
       <screen x="0" y="56" width="3200" height="1744" />
     </state>
     <state x="1171" y="438" width="848" height="978" key="FileChooserDialogImpl/0.56.3200.1744@0.56.3200.1744" timestamp="1604507680168" />
+    <state x="985" y="245" width="1219" height="1364" key="RollbackChangesDialog" timestamp="1604561661793">
+      <screen x="0" y="56" width="3200" height="1744" />
+    </state>
+    <state x="985" y="245" width="1219" height="1364" key="RollbackChangesDialog/0.56.3200.1744@0.56.3200.1744" timestamp="1604561661793" />
   </component>
 </project>
