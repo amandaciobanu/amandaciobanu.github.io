@@ -1,3 +1,7 @@
 .card-text{
   color: rgb(239, 123, 123);
 }
+
+.card {
+  border: 1px solid rgb(243, 212, 212);
+}
