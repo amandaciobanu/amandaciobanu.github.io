@@ -6,422 +6,689 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, CSS, JavaScript, Ruby on Rails">
-    <meta name="description" content="Amanda Ciobanu's portfolio">
-    <meta property="og:image" content="https://aciobanu.dev/">
+    <meta property="og:description" content="Hello. I am a full stack web developer.  Here you can get to know me and my work a bit better.">
+    <meta property="og:image" content="">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aciobanu.dev">
+    <meta property="og:title" content="Amanda Ciobanu | Portfolio">
+    <meta property="og:description" content="Hello. I am a full stack web developer.  Here you can get to know me and my work a bit better.">
+    <meta property="og:image" content="">
+  
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aciobanu.dev">
+    <meta property="twitter:title" content="Amanda Ciobanu | Portfolio">
+    <meta property="twitter:description" content="Hello. I am a full stack web developer.  Here you can get to know me and my work a bit better.">
+    <meta property="twitter:image" content="">
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"></script>
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/59d46e0be8.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" type="image/png" sizes="40x40" href="./images/Amanda%20Logo.png"/>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="./index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
   </head>
-
+  
   <body>
-    <!--Navbar-->
-    <header>
-      <div class="container">
-        <nav id="navbar-core" class="navbar navbar-expand-lg navbar-light fixed-top">
-          <a class="navbar-brand" href="https://aciobanu.dev">A / C</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-bar-core"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="nav-bar-core">
-            <ul class="navbar-nav ml-lg-auto">
-              <li class="nav-item">
-                <a id="link-portfolio-target" class="nav-link" href="#portfolio-target">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a id="link-about-target" class="nav-link" href="#about-target">About</a>
-              </li>
-              <li class="nav-item">
-                <a id="link-skills-target" class="nav-link" href="#skills-target">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a id="link-contact-target" class="nav-link" href="#contact-target">Contact</a>
-              </li>
+    <div>
+      <header id="header">
+        <div class="inner">
+          <a class="image avatar" href="">
+            <img src="images/avatar.jpg" alt="Amanda Profile Picture">
+          </a>
+          <h3><strong>Amanda Ciobanu</strong><br><small>I am a Full Stack <strong>Web Developer</strong></small></h3>
+        </div>
+        <div id="footer">
+          <div class="inner">
+            <ul class="icons">
+              <li><a href="https://www.linkedin.com/in/amandatciobanu" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="https://github.com/amandaciobanu" target="_blank"><i class="fab fa-github"></i></a></li>
+              <li><a href="mailto:amanda@ciobanu.org" target="_blank"><i class="fas fa-envelope"></i></a></li>
+              <li><a href="https://codepen.io/amandaciobanu" target="_blank"><i class="fab fa-codepen"></i></a></li>
+            </ul>
+            <ul class="copyright">
+              <li>© Amanda Ciobanu | 2020</li>
             </ul>
           </div>
-        </nav>
-      </div>
-    </header>
-    <!--Banner-->
-    <section class="banner">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h2>Amanda Ciobanu</h2>
-            <div id="typed-strings">
-              <h4>Full-Stack Web Developer</h4>
-            </div>
-            <span id="typed"></span>
-          </div>
         </div>
-      </div>
-    </section>
-    <!--Portfolio-->
-    <div id="portfolio-target" class="container">
-      <div id="portfolio">
-        <h2 >PORTFOLIO</h2>
-      </div>
-      <div class="card-hover">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-xs-10">
-            <div class="card">
-              <div class="card-img" style="background-image:url(./images/balancer-c.jpg);">
-                <div class="overlay">
-                  <div class="overlay-content">
-                    <a class="hover" href="http://www.balancer.online" target="_blank">View Project</a>
-                  </div>
-                </div>
-              </div>
+      </header>
+      <div id="main">
+        <section id="one">
+          <header class="major">
+            <h2>About Me</h2>
+          </header>
+          <p class="about-me">Hello, and thank you for being here!</p>
+  
+          <p class="about-me">I am a freelance web developer with background in business management, and law. I currently live in Lisbon, Portugal, but I don't feel tied to any particular time zone.</p>
+  
+          <p class="about-me">I enjoy working closely with clients to help clearly articulate their vision and help small businesses get started on the internet. I am comfortable with taking an idea, and through analyses and planning, come up with a design and functionality proposal. I develop professional and clean web applications tailored to each client's individual and brand needs.</p>
+  
+          <p class="about-me">
+            I am pretty handy with Ruby on Rails, vanilla javascript, React and fluent in HTML5, CSS, and responsive web design. Additionally, I can provide my clients with full web strategy consultancy, including SEO and social media plan.</p>
           
-              <div class="card-content">
-                <a href="http://www.balancer.online" target="_blank">
-                  <h2>Balancer</h2>
-                  <p>Team Project | Le Wagon</p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-10">
-            <div class="card">
-              <div class="card-img" style="background-image:url(./images/birou-long.png);">
-                <div class="overlay">
-                  <div class="overlay-content">
-                    <a class="hover" href="http://birou.herokuapp.com" target="_blank">View Project</a>
-                  </div>
-                </div>
-              </div>
-          
-              <div class="card-content">
-                <a href="http://birou.herokuapp.com" target="_blank">
-                  <h2>Birou</h2>
-                  <p>Team Project | Le Wagon</p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-10">
-            <div class="card">
-              <div class="card-img" style="background-image:url(images/budget-calculator.jpg);">
-                <div class="overlay">
-                  <div class="overlay-content">
-                    <a class="hover" href="https://expense-calculator-svelte.netlify.app" target="_blank">View Project</a>
-                  </div>
-                </div>
-              </div>
-          
-              <div class="card-content">
-                <a href="https://expense-calculator-svelte.netlify.app" target="_blank">
-                  <h2>Calculator</h2>
-                  <p>Built with Svelte</p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-10">
-            <div class="card">
-              <div class="card-img" style="background-image:url(./images/full-blog.jpg);">
-                <div class="overlay">
-                  <div class="overlay-content">
-                    <a class="hover" href="https://living-the-simple-life.netlify.app" target="_blank">View Project</a>
-                  </div>
-                </div>
-              </div>
-          
-              <div class="card-content">
-                <a href="https://living-the-simple-life.netlify.app" target="_blank">
-                  <h2>Blog Mockup</h2>
-                  <p>Built with Flex Box</p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-10">
-            <div class="card">
-              <div class="card-img" style="background-image:url(./images/snake-js-game.jpg);">
-                <div class="overlay">
-                  <div class="overlay-content">
-                    <a class="hover" href="https://the-snake-game-js.netlify.app" target="_blank">View Project</a>
-                  </div>
-                </div>
-              </div>
-          
-              <div class="card-content">
-                <a href="https://the-snake-game-js.netlify.app" target="_blank">
-                  <h2>Snake Game</h2>
-                  <p>Built with ES6 | CSS | HTML 5</p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-10">
-            <div class="card">
-              <div class="card-img" style="background-image:url(./images/tic-tac-toe.jpg);">
-                <div class="overlay">
-                  <div class="overlay-content">
-                    <a class="hover" href="https://fun-tictactoe.netlify.app" target="_blank">View Project</a>
-                  </div>
-                </div>
-              </div>
-          
-              <div class="card-content">
-                <a href="https://fun-tictactoe.netlify.app" target="_blank">
-                  <h2>Tic Tac Toe</h2>
-                  <p>Built with ES6 | CSS | HTML 5</p>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--Cards/End-->
-    </div>
-    <!--Cards-->
-    <!--About Me-->
-    <div class="container">
-      <div id="about-target">
-        <h2 class="">ABOUT ME</h2>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12  ml-2 d-flex justify-content-center mb-3">
-          <div data-aos="zoom-in" data-aos-duration="1200">
-            <div class="img-profile">
-              <img class="img-fluid" src="./images/profilepicuture.jpg" alt="Amanda Ciobanu profile picture">
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
-          <div class="text-about-me">
-            <p>At the beginning of 2020, I decided to pursue a new and exciting career in software development.
-              To fulfill this objective, I attended Le Wagon Bootcamp (full-time) in Lisbon which I have graduated in July 2020 (batch #419).</p>
-            <p>During the 9 weeks of the Bootcamp, I have found myself passionate about the entire process of creating a web application,
-              including prototyping, deploying, and the inevitable bug-fixing.</p>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
-          <div class="text-about-me">
-            <p>The learning process never stops - I am continuously working on deepening the skills
-              I acquired during the Bootcamp and acquiring new ones that were not part of the curriculum, such as front-end frameworks like React and Svelte.</p>
-            <p>Looking forward to my next challenge where I can become a great developer, work on meaningful products,
-              and be an active member of the tech community.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Skills-->
-    <div class="container">
-      <div id="skills-target">
-        <h2>SKILLS</h2>
-      </div> 
-    </div>
-    <!--skills-->
-    <div class="container">
-      <div class="skills">
-        <div class="skill-column">
-          <div class="skill-label">HTML 5</div>
-          <div class="skill-icons">
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="skill-column">
-          <div class="skill-label">CSS/SASS</div>
-          <div class="skill-icons">
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="skill-column">
-          <div class="skill-label">Ruby</div>
-          <div class="skill-icons">
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="skill-column">
-          <div class="skill-label">JavaScript</div>
-          <div class="skill-icons">
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="skill-column">
-          <div class="skill-label">PostgresSQL</div>
-          <div class="skill-icons">
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="skill-column">
-          <div class="skill-label">Bootstrap</div>
-          <div class="skill-icons">
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="skill-column">
-          <div class="skill-label">Ruby on Rails</div>
-          <div class="skill-icons">
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="skill-column">
-          <div class="skill-label">Git/GitHub</div>
-          <div class="skill-icons">
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="skill-column" style="margin-bottom: 50px;">
-          <div class="skill-label">OOP</div>
-          <div class="skill-icons">
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="skill-column" style="margin-bottom: 50px;">
-          <div class="skill-label">English/Portuguese</div>
-          <div class="skill-icons">
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-          </div>
-        </div>
-      </div>  
-    </div>
+          <p class="about-me">On a personal note, I am a curious and passionate person. When I am not working on projects, I like to spend my free time learning new things about nature, science, history, and cultures. To that end, I am obsessed with traveling and experiencing the world at large and sharing these moments with my dear husband and our sweet cat Anubis.</p>
 
-    <!--Contact-->
-    <div class="container">
-      <div id="contact-target">
-        <h2>CONTACT</h2>
-      </div> 
+        </section>
+        <hr>
+        <section class="section-services">
+          <div class="container-fluid">
+            <header class="major">
+              <h2>Services</h2>
+              <p class="text-center"><small>These are the services that I can offer you, your company and your brand!</small></p>
+            </header>
+            <div class="row">
+              <!-- Single Service -->
+              <div class="col-md-6 col-lg-6 h-100">
+                <div class="single-service">
+                  <div class="content">
+							<span class="icon">
+								<i class="fab fa-artstation"></i>
+							</span>
+                    <h3 class="title">Software Development</h3>
+                    <p class="description">Clean coding is the key element of a web development process and has an important impact on search engine optimization and on page loading time.</p>
+                  </div>
+                  <span class="circle-before"></span>
+                </div>
+              </div>
+              <!-- / End Single Service -->
+              <!-- Single Service -->
+              <div class="col-md-6 col-lg-6 h-100">
+                <div class="single-service">
+                  <div class="content">
+							<span class="icon">
+								<i class="fab fa-500px"></i>
+							</span>
+                    <h3 class="title">Brand Strategy</h3>
+                    <p class="description">Your brand strategy should be defined as the experience and emotional response your consumers have with your company across each and every point of contact.</p>
+                  </div>
+                  <span class="circle-before"></span>
+                </div>
+              </div>
+              <!-- / End Single Service -->
+              <!-- Single Service -->
+              <div class="col-md-6 col-lg-6 h-100">
+                <div class="single-service">
+                  <div class="content">
+							<span class="icon">
+								<i class="fas fa-chart-pie"></i>
+							</span>
+                    <h3 class="title">Business Consulting</h3>
+                    <p class="description">By building only what you need, I can affordably create web applications that will speed up your business operations.</p>
+                  </div>
+                  <span class="circle-before"></span>
+                </div>
+              </div>
+              <!-- / End Single Service -->
+              <!-- Single Service -->
+              <div class="col-md-6 col-lg-6 h-100">
+                <div class="single-service">
+                  <div class="content">
+							<span class="icon">
+								<i class="fas fa-laptop-code"></i>
+							</span>
+                    <h3 class="title">Website Design</h3>
+                    <p class="description">Developing smart back-end and attractive front-end websites, which perfectly align to business goals and users needs.</p>
+                  </div>
+                  <span class="circle-before"></span>
+                </div>
+              </div>
+              <!-- / End Single Service -->
+            </div>
+          </div>
+        </section>
+        <hr>
+        <section id="process">
+          <header class="major">
+          <h2>Websites Design Process</h2>
+          </header>
+          <p class="about-me">A lot takes place before the big launch. From gathering initial information, through to the creation of your site, there are six essential steps in the website design and development process.</p>
+          <p class="text-center"><small>The exact process can be slightly different among projects, but the basics remain the same.</small></p>
+          <div class="row">
+            <div class="col-12 col-lg-6 col-md-6 mb-4">
+              <div class="card h-100">
+                <img class="card-img-top" src="images/discover.jpg" alt="Image girl looking throughout binoculars ">
+                <div class="card-body">
+                  <p class="card-text">01. Discovery</p>
+                  <p><small>The first step in designing a successful website is to gather as much information as possible.</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 mb-4">
+              <div class="card h-100">
+                <img class="card-img-top" src="images/planning.jpg" alt="Image with a notebook and pencil for planning">
+                <div class="card-body">
+                  <p class="card-text">02. Planning</p>
+                  <p><small>Using the information gathered from phase one, we first put together a plan.</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 mb-4">
+              <div class="card h-100">
+                <img class="card-img-top" src="images/design.jpg" alt="Image with drawings of website design">
+                <div class="card-body">
+                  <p class="card-text">03. Design</p>
+                  <p><small>With all collected information, we determine the look and feel of the website.</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 mb-4">
+              <div class="card h-100">
+                <img class="card-img-top" src="images/developerheart.jpg" alt="Image of a heart in binary code">
+                <div class="card-body">
+                  <p class="card-text">04. Development</p>
+                  <p><small>This is where the website development happens.</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 mb-4">
+              <div class="card h-100">
+                <img class="card-img-top" src="images/deliver.jpg" alt="Image with a white background and a takeaway box">
+                <div class="card-body">
+                  <p class="card-text">05. Deliver</p>
+                  <p><small>At this point, I will attend to the final details and make the necessary adjustments.</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 mb-4">
+              <div class="card h-100">
+                <img class="card-img-top" src="images/maintenance.jpg" alt="Image with maintenance tools">
+                <div class="card-body">
+                  <p class="card-text">06. Maintenance</p>
+                  <p><small>I am happy to continue working together with you to keep your website up to date.</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+        </section>
+        <section id="two">
+          <header class="major">
+            <h2>Recent Projects</h2>
+            <p class="about-me">These are some of my most recent projects.</p>
+          </header>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-12 work-item">
+              <div data-aos="fade-up" data-aos-duration="2000">
+                <img class="img-fluid" src="images/balancer.jpg" alt="Balancer Project">
+              </div>
+              <div class="d-flex justify-content-between">
+                <h4>Balancer</h4>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="http://www.balancer.online/" target="_blank"><i class="fab fa-chrome"></i></a></li>
+                  <li class="list-inline-item"><a href="https://github.com/DariusPirvulescu/Balancer" target="_blank"><i class="fab fa-github-alt"></i></a></li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-work-item" data-toggle="modal" data-target="#modal-balancer">
+                More Details
+              </button>
+              <div class="modal fade" id="modal-balancer" tabindex="-1" role="dialog" aria-labelledby="Modal Balancer Project" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modal-balancer">Balancer</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Le Wagon Bootcamp | July 2020</h3>
+                      <h4>Final Project</h4>
+                      <p>I graduated at Le Wagon Lisbon in July 2020 from a 9-week intensive (over 450 hours in the curriculum) coding bootcamp. The course focused on programming in Ruby and ES6, CSS3, HTML 5,  web technologies, and particular integrations provided by the Rails platform.</p>
+                      <p>As part of a team, we designed, implemented and deployed a web application used to connect entrepreneurs with investors. Used Ruby on Rails, ES6, PostgreSQL, and HTML/CSS.
+                        The project also featured Stripe Payments integration for collecting funding pledges. Worked in features from back to front end.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Balancer Project-->
+            <div class="col-12 col-md-6 col-lg-12">
+              <div data-aos="fade-down" data-aos-duration="2000">
+               <img class="img-fluid" src="images/birou.jpg" alt="Birou Project">
+              </div>
+              <div class="d-flex justify-content-between">
+                <h4>Birou</h4>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="http://birou.herokuapp.com/" target="_blank"><i class="fab fa-chrome"></i></a></li>
+                  <li class="list-inline-item"><a href="https://github.com/amandaciobanu/birou" target="_blank"><i class="fab fa-github-alt"></i></a></li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-work-item" data-toggle="modal" data-target="#modal-birou">
+                More Details
+              </button>
+              <div class="modal fade" id="modal-birou" tabindex="-1" role="dialog" aria-labelledby="Modal Birou Project" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modal-birou">Birou</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Le Wagon Bootcamp | June 2020</h3>
+                      <h4>Team project</h4>
+                      <p>I graduated at Le Wagon Lisbon in July 2020 from a 9-week intensive (over 450 hours in the curriculum) coding bootcamp. The course focused on programming in Ruby and ES6, CSS3, HTML 5,  web technologies, and particular integrations provided by the Rails platform.</p>
+                      <p>In teams of 4, we designed, implemented and shipped to production an AirBnB look-alike platform.
+                        Used Ruby on Rails, ES6, PostgreSQL, and HTML/CSS. Worked in features from back to front end.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Birou Project-->
+            <div class="col-12 col-md-6 col-lg-12">
+              <div data-aos="fade-up" data-aos-duration="2000">
+                <img class="img-fluid" src="images/caffecavalluceproject.png" alt="Cavalluce project">
+              </div>
+              <div class="d-flex justify-content-between">
+                <h4>Caffè Cavalluce</h4>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="https://www.cafecavalluce.com.br/" target="_blank"><i class="fab fa-chrome"></i></a></li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-work-item" data-toggle="modal" data-target="#modal-cavalluce">
+                More Details
+              </button>
+              <div class="modal fade" id="modal-cavalluce" tabindex="-1" role="dialog" aria-labelledby="Modal Cavalluce Project" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modal-cavalluce">Caffè Cavalluce</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Caffè Cavalluce | November 2020</h3>
+                      <h4>Still in implementation phase</h4>
+                      <p>E-commerce website for a coffee brand in Brazil. Completely redesign the UI of the company's website
+                        Used HTML/SASS. The platform's back end is built in PHP.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Cavalluce Project-->
+            <div class="col-12 col-md-6 col-lg-12">
+              <div data-aos="fade-down" data-aos-duration="2000">
+                <img class="img-fluid" src="images/livingthesimplelife.png" alt="Blog Project Picture">
+              </div>
+              <div class="d-flex justify-content-between">
+                <h4>Blog Mock-up</h4>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="https://living-the-simple-life.netlify.app/" target="_blank"><i class="fab fa-chrome"></i></a></li>
+                  <li class="list-inline-item"><a href="https://github.com/amandaciobanu/flex-box-practice" target="_blank"><i class="fab fa-github-alt"></i></a></li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-work-item" data-toggle="modal" data-target="#modal-blog">
+                More Details
+              </button>
+              <div class="modal fade" id="modal-blog" tabindex="-1" role="dialog" aria-labelledby="Modal Blog Project" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modal-blog">Blog Mockup</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                     <h3>Blog Mockup</h3>
+                      <h4>Flexbox Practice | October 2020</h4>
+                      <p>While the content of this blog is fictional, this project was made with main intent of using flexbox for responsive web design.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Blog Project-->
+            <hr>
+              <header class="major">
+              <h2>Fun Projects</h2>
+              <p class="about-me">Learning how to code has not only given me the ability to work on professional projects, but all the freedom to express my self using this new and wonderful medium.
+                I love to learn new and different technologies and use them to create personal projects.
+                <br/><br/>
+                See what I do for fun in the list of projects below:</p>
+            </header>
+            <div class="col-12 col-md-6 col-lg-12">
+              <div data-aos="fade-up" data-aos-duration="2000">
+                <img class="img-fluid" src="images/JStictactoe.png" alt="Tic Tac Toe Project">
+              </div>
+              <div class="d-flex justify-content-between">
+                <h4>Tic Tac Toe</h4>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="https://fun-tictactoe.netlify.app/" target="_blank"><i class="fab fa-chrome"></i></a></li>
+                  <li class="list-inline-item"><a href="https://github.com/amandaciobanu/tic-tac-toe-js" target="_blank"><i class="fab fa-github-alt"></i></a></li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-work-item" data-toggle="modal" data-target="#modal-tic-tac-toe">
+                More Details
+              </button>
+              <div class="modal fade" id="modal-tic-tac-toe" tabindex="-1" role="dialog" aria-labelledby="Modal Tic Tac Toe Project" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modal-tic-tac-toe">Tic Tac Toe</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Tic Tac Toe</h3>
+                      <h4>September 2020</h4>
+                      <p>After complete a 39 hours of Javascript course, I decided to put in practice all what I have learned, and also have
+                      a bit of fun :) </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Tic Tac Toe Project-->
+            <div class="col-12 col-md-6 col-lg-12">
+              <div data-aos="fade-down" data-aos-duration="2000">
+                <img class="img-fluid" src="images/snakegamejs.png" alt="Snake Game Project">
+              </div>
+              <div class="d-flex justify-content-between">
+                <h4>Snake Game</h4>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="https://the-snake-game-js.netlify.app/" target="_blank"><i class="fab fa-chrome"></i></a></li>
+                  <li class="list-inline-item"><a href="https://github.com/amandaciobanu/snake-game-js" target="_blank"><i class="fab fa-github-alt"></i></a></li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-work-item" data-toggle="modal" data-target="#modal-snake-game">
+                More Details
+              </button>
+            </div>
+            <div class="modal fade" id="modal-snake-game" tabindex="-1" role="dialog" aria-labelledby="Modal Snake Game" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modal-snake-game">Snake Game</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h3>Snake Game</h3>
+                    <h4>October 2020</h4>
+                    <p>After complete a 39 hours of Javascript course, I decided to put in practice all what I have learned, and also have
+                      a bit of fun :) </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Snake Game Project-->
+            <div class="col-12 col-md-6 col-lg-12">
+              <div data-aos="fade-up" data-aos-duration="2000">
+                <img class="img-fluid" src="images/react-tours-project.png" alt="React Tours Project">
+              </div>
+              <div class="d-flex justify-content-between">
+                <h4>React Tours</h4>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="https://react-tours-around-europe-project.netlify.app/" target="_blank"><i class="fab fa-chrome"></i></a></li>
+                  <li class="list-inline-item"><a href="https://github.com/amandaciobanu/react-tours-project" target="_blank"><i class="fab fa-github-alt"></i></a></li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-work-item" data-toggle="modal" data-target="#modal-react-tours">
+                More Details
+              </button>
+            </div>
+            <div class="modal fade" id="modal-react-tours" tabindex="-1" role="dialog" aria-labelledby="Modal React Project" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modal-react-tours">React Tours</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h3>React Tours</h3>
+                    <h4>React Project | November 2020</h4>
+                    <p>As I am continuously learning, my main focus now is to master React framework.
+                      In this project I focused on useState, useEffect and fetching the data from an API.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End React Project-->
+          </div>
+        </section>
+        <hr>
+        <section id="three">
+          <header class="major">
+            <h2>Skills</h2>
+          </header>
+          <p class="about-me">These are the technologies I have mostly worked with so far.
+            My approach to learning a new programming language is similar to a spoken language. Even if you know a thousand words, but you don't make intelligent use of its structure and syntax, you won't obtain a cohesive sentence. Same with lines of code.
+            In my view, coding should be simple and tell a clear narrative that you and your audience won't have any strain to follow.</p>
+            <div class="container-fluid p-0">
+            <div class='row'>
+              <div class='col-12 d-flex justify-content-between p-0'>
+                <div class="flip-card-container">
+                  <div class="flip-card">
+                    <div class="flip-card-front">
+                      <i class="fas fa-train"></i>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        <span>Ruby on Rails</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card-container">
+                  <div class="flip-card">
+                    <div class="flip-card-front">
+                      <i class="fas fa-gem"></i>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        <span>Ruby</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card-container">
+                  <div class="flip-card">
+                    <div class="flip-card-front">
+                      <i class="fab fa-js"></i>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        <span>Javascript/ ES6</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end first row-->
+            <div class='row'>
+              <div class='col-12 d-flex justify-content-between p-0'>
+                <div class="flip-card-container">
+                  <div class="flip-card">
+                    <div class="flip-card-front">
+                      <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        <span>HTML 5</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card-container">
+                  <div class="flip-card">
+                    <div class="flip-card-front">
+                      <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        <span>CSS 3 / Sass</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card-container">
+                  <div class="flip-card">
+                    <div class="flip-card-front">
+                      <i class="fas fa-database"></i>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        <span>SQL Databases</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end second row-->
+            <div class='row'>
+              <div class='col-12 d-flex justify-content-between p-0'>
+                <div class="flip-card-container">
+                  <div class="flip-card">
+                    <div class="flip-card-front">
+                      <i class="fab fa-github-square"></i>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        <span>Git & Github</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card-container">
+                  <div class="flip-card">
+                    <div class="flip-card-front">
+                      <i class="fas fa-users"></i>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        <span>UI/UX</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card-container">
+                  <div class="flip-card">
+                    <div class="flip-card-front">
+                      <i class="far fa-check-square"></i>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        <span>Unit Testing</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End third row-->
+            <div class='row'>
+              <div class='col-12 d-flex justify-content-between p-0'>
+                <div class="flip-card-container">
+                  <div class="flip-card">
+                    <div class="flip-card-front">
+                      <i class="fab fa-bootstrap"></i>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        <span>Boostrap</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card-container">
+                  <div class="flip-card">
+                    <div class="flip-card-front">
+                      <i class="far fa-file-code"></i>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        <span>OOP</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card-container">
+                  <div class="flip-card">
+                    <div class="flip-card-front">
+                      <i class="fas fa-language"></i>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        <span>English Portuguese Spanish</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end Fourth row-->
+          </div>
+        </section>
+        <hr>
+        <section class="last">
+          <header class="major">
+            <h2>Contact</h2>
+            <p class="about-me"><strong>Thank you</strong> for visiting my portfolio. Below you can download my resumé. For any further enquiries about my work, please feel free to send me an email at <strong>amanda@ciobanu.org</strong>.</p>
+            <p class="about-me">I look forward to hearing from you!</p>
+            <div class="d-flex justify-content-center" >
+              <a class="resume" href="./Amanda%20Ciobanu%20_%20Resumé.pdf">Download Resumé</a>
+            </div>
+          </header>
+        </section>
+      </div>
     </div>
-    <div class="contact-box">
-      <div class="contact">
-        <i class="fas fa-map-marker-alt"></i>
-        <p>Lisbon/Portugal</p>
-      </div>
-      <div class="contact">
-        <i class="fas fa-envelope"></i>
-        <a href="mailto:amanda@ciobanu.org">amanda@ciobanu.org</a>
-      </div>
-    </div>  
-    <div class="resume">
-      <a target="blank" href="./files/Amanda%20Ciobanu%20(4).pdf">DOWNLOAD CV</a>
-    </div>
-  </div>
-
-    <!--footer-->
-    <div class="footer">
-      <div class="footer-links">
-        <a href="https://github.com/amandaciobanu"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/amandatjciobanu/"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <div class="footer-copyright">
-        <p>© 2020 | Amanda Ciobanu</p>
-      </div>
-    </div>
+    <script src="index.js">
     
+    </script>
+    <script>
+      AOS.init();
+    </script>
   </body>
-
 </html>

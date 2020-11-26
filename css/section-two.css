@@ -1,0 +1,36 @@
+#two h4{
+  font-size: 1.2em;
+  margin: 0 0 .5em;
+  line-height: 1.5em;
+}
+
+.img-fluid{
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.btn-work-item{
+  background-color: rgb(234,164,164);
+  color: #ffffff;
+  border: 1px solid rgb(234,164,164);
+  font-weight: 600;
+
+}
+
+.btn-work-item:hover,
+.btn-work-item:focus,
+.btn-work-item:active{
+  background-color: rgb(235, 134, 134);
+  color: #ffffff;
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  transition: ease-in-out 0.3s;
+  outline: none !important;
+  box-shadow: none;
+
+}
+
+.fa-github-alt,
+.fa-chrome{
+  color: rgb(235, 134, 134);
+}

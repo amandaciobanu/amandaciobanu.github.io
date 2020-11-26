@@ -20,7 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575f91a5-159b-4892-86d1-b68bed2014d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/banner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/skills.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/Amanda Ciobanu (4).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Amanda Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ac (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/balancer-c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner-def.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/birou-long.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/budget-calculator.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/full-blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilepicuture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/snake-js-game.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tic-tac-toe.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +60,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,7 +102,10 @@
       <workItem from="1604524070847" duration="2520000" />
       <workItem from="1604561649765" duration="656000" />
       <workItem from="1604569649877" duration="11000" />
-      <workItem from="1606041910100" duration="1380000" />
+      <workItem from="1606041910100" duration="2093000" />
+      <workItem from="1606065247570" duration="4000" />
+      <workItem from="1606125946018" duration="664000" />
+      <workItem from="1606402906420" duration="3580000" />
     </task>
     <servers />
   </component>

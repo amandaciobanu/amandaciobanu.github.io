@@ -1,0 +1,29 @@
+@import "header.css";
+@import "footer.css";
+@import "main.css";
+@import "section-two.css";
+@import "skills.css";
+@import "modal.css";
+@import "section-final.css";
+@import "services.css";
+@import "process.css";
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  color: #a2a2a2;
+  font-family: 'Karla', sans-serif;
+  font-size: 16pt;
+  font-weight: 400;
+  line-height: 1.75em;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+
