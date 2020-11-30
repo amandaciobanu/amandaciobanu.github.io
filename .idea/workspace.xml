@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575f91a5-159b-4892-86d1-b68bed2014d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/ac-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/shades-react.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Amanda Logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +51,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/files" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -90,7 +89,10 @@
       <workItem from="1606402906420" duration="10338000" />
       <workItem from="1606463768449" duration="4689000" />
       <workItem from="1606477545334" duration="3000" />
-      <workItem from="1606594279181" duration="291000" />
+      <workItem from="1606594279181" duration="1047000" />
+      <workItem from="1606644409428" duration="83000" />
+      <workItem from="1606670711134" duration="1187000" />
+      <workItem from="1606727296587" duration="1214000" />
     </task>
     <servers />
   </component>
