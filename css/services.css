@@ -1,14 +1,13 @@
 .section-services {
   font-family: 'Karla', sans-serif;
-  background-color: rgb(237, 217, 217);
-  padding-top: 2em !important;
+   padding-top: 2em !important;
   padding-bottom: 2em !important;
 }
 
 .section-services .single-service {
   position: relative;
-  margin-top: 30px;
-  background-color: #fff;
+  margin-top: 1.875em;
+  background-color: rgb(247, 239, 239);
   border-radius: 10px;
   padding: 2.5em 1.875em;
   overflow: hidden;
@@ -24,8 +23,8 @@
   top: 0;
   right: 0px;
   transform: translate(40%, -40%);
-  width: 150px;
-  height: 150px;
+  width: 9.375em;
+  height: 9.375em;
   background-color: rgb(239, 123, 123);
   border: 6px solid #504f93;
   border-radius: 50%;
@@ -45,7 +44,7 @@
 
 .section-services .single-service .icon {
   display: inline-block;
-  margin-bottom: 26px;
+  margin-bottom: 1.4em;
   width: 70px;
   height: 70px;
   background-color: rgb(234,164,164);
@@ -53,7 +52,7 @@
   line-height: 70px;
   text-align: center;
   color: #fff;
-  font-size: 30px;
+  font-size: 1.875em;
   transition: all .3s;
 }
 
@@ -75,25 +74,27 @@
 
 .section-services .single-service .description {
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 0.85em;
   transition: color .3s;
+  text-align: justify;
 }
 
 .section-services .single-service:hover .description {
   color: #fff;
+  text-align: justify;
 }
 
-./*section-services .single-service a {
+.section-services .single-service  a {
   position: relative;
   font-size: 18px;
-  color: #202020;
+  color: rgb(234,164,164);
   text-decoration: none;
   font-weight: 500;
   transition: color .3s;
 }
 
-.section-services .single-service:hover a {
-  color: #fff;
+.section-services .single-service  a {
+  color: rgb(234,164,164);
 }
 
 .section-services .single-service a:after {
@@ -103,10 +104,34 @@
   left: 0;
   right: 0;
   height: 1px;
-  background-color: rgb(234,164,164);
+  background-color: #fff;
   transition: background-color .3s;
 }
-*/
+
 .section-services .single-service:hover a:after {
   background-color: #fff;
+}
+
+@media screen and (max-width: 1280px) {
+  .section-services .single-service .title{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .section-services .single-service .icon {
+    width: 50px;
+    height:50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  .section-services .single-service .circle-before {
+    width: 6em;
+    height: 6em;
+  }
+  .section-services .single-service .description {
+    font-size: 0.7em;
+    text-align: left;
+  }
 }

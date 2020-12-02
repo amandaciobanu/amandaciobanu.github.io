@@ -18,7 +18,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/59d46e0be8.js"></script><link href="https://use.fontawesome.com/59d46e0be8.css" media="all" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
@@ -26,7 +25,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="40x40" href="/images/ac-logo.jpg">
     <link rel="stylesheet" href="css/index.css">
-    <script src="./index.js"></script>
+    <script src="./index.js" defer></script>
   </head>
   
   <body>
@@ -53,9 +52,10 @@
         </div>
       </header>
       <div id="main">
+        <img class="top-section-image img-fluid" src="./images/undraw_dev_focus_b9xo.svg" alt="">
         <section id="one">
           <header class="major">
-            <h2>About Me</h2>
+            <h2 class="text-center">About Me</h2>
           </header>
           <p class="about-me">Hello, and thank you for being here!</p>
   
@@ -63,8 +63,7 @@
   
           <p class="about-me">I enjoy working closely with clients to help clearly articulate their vision and help small businesses get started on the internet. I am comfortable with taking an idea, and through analyses and planning, come up with a design and functionality proposal. I develop professional and clean web applications tailored to each client's individual and brand needs.</p>
   
-          <p class="about-me">
-            I am pretty handy with Ruby on Rails, vanilla javascript, React and fluent in HTML5, CSS, and responsive web design. Additionally, I can provide my clients with full web strategy consultancy, including SEO and social media plan.</p>
+          <p class="about-me">I am pretty handy with Ruby on Rails, vanilla javascript, React and fluent in HTML5, CSS, and responsive web design. Additionally, I can provide my clients with full web strategy consultancy, including SEO and social media plan.</p>
           
           <p class="about-me">On a personal note, I am a curious and passionate person. When I am not working on projects, I like to spend my free time learning new things about nature, science, history, and cultures. To that end, I am obsessed with traveling and experiencing the world at large and sharing these moments with my dear husband and our sweet cat Anubis.</p>
 
@@ -73,19 +72,21 @@
         <section class="section-services">
           <div class="container-fluid">
             <header class="major">
-              <h2>Services</h2>
-              <p class="text-center"><small><strong>These are the services which I can offer you, your company and your brand!</strong></small></p>
+              <h2 class="text-center">Services</h2>
+              <img class="top-section-image img-fluid" src="./images/undraw_services_5tv9.svg" alt="">
+              <h5 class="text-center about-me"><strong>These are the services which I can offer you, your company and your brand!</strong></h5>
             </header>
             <div class="row">
               <!-- Single Service -->
               <div class="col-md-6 col-lg-6 h-100">
                 <div class="single-service">
                   <div class="content">
-							<span class="icon">
-								<i class="fab fa-artstation"></i>
-							</span>
+                    <span class="icon">
+                      <i class="fab fa-artstation"></i>
+                    </span>
                     <h3 class="title">Software Development</h3>
                     <p class="description">Clean coding is the key element of a web development process and has an important impact on search engine optimization and on page loading time.</p>
+                    <a href="#" class="learn-more">Learn More</a>
                   </div>
                   <span class="circle-before"></span>
                 </div>
@@ -95,11 +96,12 @@
               <div class="col-md-6 col-lg-6 h-100">
                 <div class="single-service">
                   <div class="content">
-							<span class="icon">
-								<i class="fab fa-500px"></i>
-							</span>
+                    <span class="icon">
+                      <i class="fab fa-500px"></i>
+                    </span>
                     <h3 class="title">Brand Strategy</h3>
-                    <p class="description">Your brand strategy should be defined as the experience and emotional response your consumers have with your company across each and every point of contact.</p>
+                    <p class="description">Your brand strategy should be defined as the experience and emotional response your consumers have with your company across each point of contact.</p>
+                    <a href="#" class="learn-more">Learn More</a>
                   </div>
                   <span class="circle-before"></span>
                 </div>
@@ -109,11 +111,12 @@
               <div class="col-md-6 col-lg-6 h-100">
                 <div class="single-service">
                   <div class="content">
-							<span class="icon">
-								<i class="fas fa-chart-pie"></i>
-							</span>
+                    <span class="icon">
+                      <i class="fas fa-chart-pie"></i>
+                    </span>
                     <h3 class="title">Business Consulting</h3>
                     <p class="description">By building only what you need, I can affordably create web applications that will speed up your business operations.</p>
+                    <a href="#" class="learn-more">Learn More</a>
                   </div>
                   <span class="circle-before"></span>
                 </div>
@@ -123,11 +126,12 @@
               <div class="col-md-6 col-lg-6 h-100">
                 <div class="single-service">
                   <div class="content">
-							<span class="icon">
-								<i class="fas fa-laptop-code"></i>
-							</span>
+                    <span class="icon">
+                      <i class="fas fa-laptop-code"></i>
+                    </span>
                     <h3 class="title">Website Design</h3>
                     <p class="description">Developing smart back-end and attractive front-end websites, which I will perfectly align to business goals and users needs.</p>
+                    <a href="web-development.html" class="learn-more">Learn More</a>
                   </div>
                   <span class="circle-before"></span>
                 </div>
@@ -136,8 +140,7 @@
             </div>
           </div>
         </section>
-        <hr>
-        <section id="process">
+<!--        <section id="process">
           <header class="major">
           <h2>Websites Design Process</h2>
           </header>
@@ -199,14 +202,20 @@
               </div>
             </div>
           </div>
-          <hr>
-        </section>
+        </section>-->
+        <hr>
         <section id="two">
           <header class="major">
-            <h2>Recent Projects</h2>
-            <p class="about-me">These are some of my most recent projects.</p>
+            <h2 class="text-center">Recent Projects</h2>
+            <img class="top-section-image img-fluid" src="./images/undraw_Portfolio_re_qwm5.svg" alt="">
+            <p class="about-me">Learning how to code has not only given me the ability to work on professional projects, but all the freedom to express myself using this new and wonderful medium.
+              I love to learn new and different technologies and use them to create personal projects.</p>
+            <p class="about-me">Click and see some of my most recent projects.</p>
+            <button type="button" class="btn btn-work-item see-more">
+              <a href="portfolio.html">See Portfolio >> </a>
+            </button>
           </header>
-          <div class="row">
+          <!--<div class="row">
             <div class="col-12 col-md-6 col-lg-12 work-item">
               <div data-aos="fade-up" data-aos-duration="2000">
                 <img class="img-fluid" src="images/balancer.jpg" alt="Balancer Project">
@@ -245,7 +254,7 @@
                 </div>
               </div>
             </div>
-            <!-- End Balancer Project-->
+            &lt;!&ndash; End Balancer Project&ndash;&gt;
             <div class="col-12 col-md-6 col-lg-12">
               <div data-aos="fade-down" data-aos-duration="2000">
                <img class="img-fluid" src="images/birou.jpg" alt="Birou Project">
@@ -285,7 +294,7 @@
                 </div>
               </div>
             </div>
-            <!-- End Birou Project-->
+            &lt;!&ndash; End Birou Project&ndash;&gt;
             <div class="col-12 col-md-6 col-lg-12">
               <div data-aos="fade-up" data-aos-duration="2000">
                 <img class="img-fluid" src="images/caffecavalluceproject.png" alt="Cavalluce project">
@@ -321,7 +330,7 @@
                 </div>
               </div>
             </div>
-            <!--End Cavalluce Project-->
+            &lt;!&ndash;End Cavalluce Project&ndash;&gt;
             <div class="col-12 col-md-6 col-lg-12">
               <div data-aos="fade-down" data-aos-duration="2000">
                 <img class="img-fluid" src="images/livingthesimplelife.png" alt="Blog Project Picture">
@@ -357,7 +366,7 @@
                 </div>
               </div>
             </div>
-            <!-- End Blog Project-->
+            &lt;!&ndash; End Blog Project&ndash;&gt;
             <hr>
               <header class="major">
               <h2>Fun Projects</h2>
@@ -440,7 +449,7 @@
                 </div>
               </div>
             </div>
-            <!--End Tic Tac Toe Project-->
+            &lt;!&ndash;End Tic Tac Toe Project&ndash;&gt;
             <div class="col-12 col-md-6 col-lg-12">
               <div data-aos="fade-down" data-aos-duration="2000">
                 <img class="img-fluid" src="images/snakegamejs.png" alt="Snake Game Project">
@@ -477,7 +486,7 @@
                 </div>
               </div>
             </div>
-            <!--End Snake Game Project-->
+            &lt;!&ndash;End Snake Game Project&ndash;&gt;
             <div class="col-12 col-md-6 col-lg-12">
               <div data-aos="fade-up" data-aos-duration="2000">
                 <img class="img-fluid" src="images/react-tours-project.png" alt="React Tours Project">
@@ -515,8 +524,9 @@
                 </div>
               </div>
             </div>
-            <!-- End React Project-->
+            &lt;!&ndash; End React Project&ndash;&gt;
           </div>
+        </section>-->
         </section>
         <hr>
         <section id="three">
@@ -705,9 +715,5 @@
         </section>
       </div>
     </div>
-    
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>

@@ -1,10 +1,19 @@
 #main {
   margin-left: 35%;
   max-width: 54em;
-  padding: 8em 4em 4em;
-  width: 60%;
+  padding: 6em 4em 6em 4em;
+  width: 65%;
 }
 
+#one{
+  margin-top: 1.2em;
+}
+
+.top-section-image{
+  max-width: 500px;
+  display: flex;
+  margin: 0 auto;
+}
 header.major h2 {
   font-size: 2em;
   margin-bottom: .8em;
@@ -14,7 +23,7 @@ hr{
   margin-top: 3em;
   margin-bottom: 3em;
   overflow: visible; /* For IE */
-  height: 30px;
+   height: 30px;
   border-style: solid;
   border-color: rgb(234,164,164);
   border-width: 1px 0 0 0;
@@ -47,6 +56,10 @@ hr:before {
     padding: 6em 3em 3em;
     width: 65%;
   }
+
+  .top-section-image{
+    max-width: 300px;
+  }
 }
 @media screen and (max-width: 980px) {
   #main {
@@ -65,6 +78,10 @@ hr:before {
 @media screen and (max-width: 425px) {
   #main{
     padding: 2em 1.5em;
+  }
+
+  .top-section-image{
+    max-width: 200px;
   }
 }
 
