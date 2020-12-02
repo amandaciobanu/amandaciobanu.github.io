@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575f91a5-159b-4892-86d1-b68bed2014d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/undraw_contact_us_15o2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/undraw_proud_coder_7ain.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/cookie.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cookie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/section-final.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/section-final.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,7 @@
       <workItem from="1606744085097" duration="419000" />
       <workItem from="1606833974625" duration="14114000" />
       <workItem from="1606895550161" duration="599000" />
-      <workItem from="1606896747851" duration="9721000" />
+      <workItem from="1606896747851" duration="12668000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add new layout">
       <created>1606906642869</created>
@@ -131,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606906674572</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: cookie modal">
+      <created>1606907982702</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606907982702</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +160,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add new layout" />
     <MESSAGE value="feat: new svg" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: new svg" />
+    <MESSAGE value="feat: cookie modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: cookie modal" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1042" y="344" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606822048764">
