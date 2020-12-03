@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575f91a5-159b-4892-86d1-b68bed2014d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/brad-strategy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/undraw_Mobile_marketing_re_p77p.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/undraw_online_connection_6778.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/section-two.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/section-two.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-strategy.html" beforeDir="false" afterPath="$PROJECT_DIR$/brand-strategy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-development.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-development.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,14 +65,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/files" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -114,7 +113,7 @@
       <workItem from="1606895550161" duration="599000" />
       <workItem from="1606896747851" duration="14733000" />
       <workItem from="1606917515046" duration="3874000" />
-      <workItem from="1606984660465" duration="1682000" />
+      <workItem from="1606984660465" duration="10209000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add new layout">
       <created>1606906642869</created>
@@ -151,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606911179993</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: new portfolio page">
+      <created>1606986443291</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606986443291</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +180,8 @@
     <MESSAGE value="feat: new svg" />
     <MESSAGE value="feat: cookie modal" />
     <MESSAGE value="feat: new contact section" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: new contact section" />
+    <MESSAGE value="feat: new portfolio page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: new portfolio page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1042" y="344" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606822048764">

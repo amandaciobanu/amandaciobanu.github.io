@@ -12,6 +12,7 @@
 @import "process.css";
 @import "web-development.css";
 @import "cookie.css";
+@import "brad-strategy.css";
 
 
 *{
@@ -31,4 +32,7 @@ body{
   vertical-align: baseline;
 }
 
+li{
+  list-style-type: none;
+}
 

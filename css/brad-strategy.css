@@ -1,0 +1,16 @@
+blockquote {
+  margin: 0 auto;
+  padding: 1em;
+  border-left: 8px solid rgb(235, 134, 134) !important;
+}
+
+.fa-arrow-circle-right{
+  color: rgb(235, 134, 134);
+  font-size: 1.3em;
+
+}
+
+.brand-questions{
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
