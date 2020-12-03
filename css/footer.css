@@ -31,9 +31,20 @@ ul.icons li {
   padding-left: 0;
 }
 
+#footer .link-home{
+  color: hsla(0,0%,100%,.4);
+  border: 1px solid hsla(0,0%,100%,.4);
+  padding: 0.5em 1em;
+}
+ a.link-home:hover{
+  text-decoration: none;
+}
+
 ul.icons li .icon:before {
   font-size: 1.5em;
 }
+
+
 
 
 @media screen and (max-width: 980px){

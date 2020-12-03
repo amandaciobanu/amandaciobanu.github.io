@@ -4,6 +4,11 @@
   line-height: 1.5em;
 }
 
+a.portfolio-link{
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
 .img-fluid{
   margin-bottom: 1em;
   margin-top: 1em;

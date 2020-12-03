@@ -1,6 +1,5 @@
 .section-services {
   font-family: 'Karla', sans-serif;
-   padding-top: 2em !important;
   padding-bottom: 2em !important;
 }
 
@@ -9,7 +8,7 @@
   margin-top: 1.875em;
   background-color: rgb(247, 239, 239);
   border-radius: 10px;
-  padding: 2.5em 1.875em;
+  padding: 2.5em 1em;
   overflow: hidden;
 }
 
