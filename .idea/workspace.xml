@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575f91a5-159b-4892-86d1-b68bed2014d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/softawer-development.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/undraw_progressive_app_m9ms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software-development.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brand-strategy.html" beforeDir="false" afterPath="$PROJECT_DIR$/brand-strategy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/brad-strategy.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/brad-strategy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,8 +70,8 @@
       <recent name="$PROJECT_DIR$/css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/files" />
     </key>
   </component>
@@ -109,7 +113,7 @@
       <workItem from="1606895550161" duration="599000" />
       <workItem from="1606896747851" duration="14733000" />
       <workItem from="1606917515046" duration="3874000" />
-      <workItem from="1606984660465" duration="10798000" />
+      <workItem from="1606984660465" duration="22751000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add new layout">
       <created>1606906642869</created>
@@ -160,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606994976564</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix: layout mobile view brand-strategy page">
+      <created>1606995921478</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606995921478</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +196,8 @@
     <MESSAGE value="feat: new contact section" />
     <MESSAGE value="feat: new portfolio page" />
     <MESSAGE value="feat: new brand-strategy page" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: new brand-strategy page" />
+    <MESSAGE value="fix: layout mobile view brand-strategy page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: layout mobile view brand-strategy page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1042" y="344" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606822048764">
