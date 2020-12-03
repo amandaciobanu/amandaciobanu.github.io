@@ -1,3 +1,7 @@
+.text-brand{
+  text-align: justify;
+}
+
 blockquote {
   margin: 0 auto;
   padding: 1em;
@@ -13,4 +17,19 @@ blockquote {
 .brand-questions{
   font-size: 1.3em;
   margin-bottom: 1em;
+}
+
+
+
+@media screen and (max-width: 620px) {
+
+  .brand-questions{
+    font-size: 1em;
+
+  }
+}
+@media screen and (max-width: 320px) {
+  .text-brand{
+    text-align: left;
+  }
 }
