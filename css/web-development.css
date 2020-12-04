@@ -1,3 +1,13 @@
 .svg{
   margin: 0;
 }
+
+@media screen and (max-width: 425px) {
+  .steps{
+    display: flex;
+    justify-content: center;
+  }
+  .svg{
+    max-width: 200px;
+  }
+}

@@ -20,16 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575f91a5-159b-4892-86d1-b68bed2014d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cookie-policy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/web-consultancy.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brand-strategy.html" beforeDir="false" afterPath="$PROJECT_DIR$/brand-strategy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/softawer-development.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookie-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookie-policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/brad-strategy.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/brad-strategy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/web-development.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-development.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Screenshot from 2020-11-25 17-25-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/deliver.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/design.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/developerheart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/discover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/maintenance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/planning.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_Mobile_marketing_re_p77p.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/mobile_marketing.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_Portfolio_re_qwm5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfolio.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_Scrum_board_re_wk7v.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/scrum_board.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_business_shop_qw5t.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/business_shop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_clean_up_ucm0.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/clean_up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_contact_us_15o2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/contact-me.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_deliveries_131a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/deliveries.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_dev_focus_b9xo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dev_focus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_experience_design_eq3j.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/experience_design.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_online_connection_6778.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/online_connection.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_portfolio_website_lidw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfolio_website.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_progressive_app_m9ms.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/progressive_app.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_proud_coder_7ain.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/proud_coder.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_services_5tv9.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/services.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_the_search_s0xf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undraw_web_search_eetr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/web_search.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software-development.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-consultancy.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web-consultancy.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-consultancy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-development.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-development.html" afterDir="false" />
     </list>
@@ -70,14 +90,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/files" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -120,7 +140,8 @@
       <workItem from="1606917515046" duration="3874000" />
       <workItem from="1606984660465" duration="23607000" />
       <workItem from="1607023725248" duration="6398000" />
-      <workItem from="1607069760375" duration="5523000" />
+      <workItem from="1607069760375" duration="13467000" />
+      <workItem from="1607090660329" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add new layout">
       <created>1606906642869</created>
@@ -192,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607072831935</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: new cookie policy page">
+      <created>1607076868471</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607076868471</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: new cookie policy page">
+      <created>1607076886866</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607076886866</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +255,8 @@
     <MESSAGE value="fix: layout mobile view brand-strategy page" />
     <MESSAGE value="feat: software development page" />
     <MESSAGE value="feat: new web-consultancy page" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: new web-consultancy page" />
+    <MESSAGE value="feat: new cookie policy page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: new cookie policy page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1042" y="344" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606822048764">
