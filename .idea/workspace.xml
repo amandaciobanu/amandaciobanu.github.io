@@ -20,14 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575f91a5-159b-4892-86d1-b68bed2014d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web-consultancy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-consultancy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookie-policy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/web-consultancy.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brand-strategy.html" beforeDir="false" afterPath="$PROJECT_DIR$/brand-strategy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/softawer-development.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/software-development.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-consultancy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-consultancy.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-consultancy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-development.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-development.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -117,7 +120,7 @@
       <workItem from="1606917515046" duration="3874000" />
       <workItem from="1606984660465" duration="23607000" />
       <workItem from="1607023725248" duration="6398000" />
-      <workItem from="1607069760375" duration="2997000" />
+      <workItem from="1607069760375" duration="5523000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add new layout">
       <created>1606906642869</created>
@@ -182,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607013608240</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: new web-consultancy page">
+      <created>1607072831935</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607072831935</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,17 +219,18 @@
     <MESSAGE value="feat: new brand-strategy page" />
     <MESSAGE value="fix: layout mobile view brand-strategy page" />
     <MESSAGE value="feat: software development page" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: software development page" />
+    <MESSAGE value="feat: new web-consultancy page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: new web-consultancy page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1042" y="344" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606822048764">
       <screen x="0" y="56" width="3200" height="1744" />
     </state>
     <state x="1042" y="344" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.56.3200.1744@0.56.3200.1744" timestamp="1606822048764" />
-    <state x="1071" y="418" width="1048" height="1018" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602608249413">
+    <state x="1071" y="404" width="1048" height="1018" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607073409997">
       <screen x="0" y="56" width="3200" height="1744" />
     </state>
-    <state x="1071" y="418" width="1048" height="1018" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.56.3200.1744@0.56.3200.1744" timestamp="1602608249413" />
+    <state x="1071" y="404" width="1048" height="1018" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.56.3200.1744@0.56.3200.1744" timestamp="1607073409997" />
     <state x="1171" y="438" width="848" height="978" key="FileChooserDialogImpl" timestamp="1604507680168">
       <screen x="0" y="56" width="3200" height="1744" />
     </state>
